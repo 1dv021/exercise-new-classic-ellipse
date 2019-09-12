@@ -19,7 +19,7 @@ describe('Circle - Using public properties (file: Circle.js)', () => {
     })
 
     it('should be instance of Circle', done => {
-      let circle = new Circle()
+      const circle = new Circle()
       expect(circle).to.be.an.instanceOf(Circle)
       done()
     })
@@ -27,7 +27,7 @@ describe('Circle - Using public properties (file: Circle.js)', () => {
 
   describe('Constructor', () => {
     it('should set the property side to 11.7', done => {
-      let circle = new Circle(11.7)
+      const circle = new Circle(11.7)
       expect(circle).to.have.property('a', 11.7)
       expect(circle).to.have.property('b', 11.7)
       expect(circle).to.have.property('radius', 11.7)
@@ -43,7 +43,7 @@ describe('Circle - Using public properties (file: Circle.js)', () => {
       })
 
       it('{ radius = 7.8 } should return 191.13449704440302', done => {
-        let circle = new Circle(7.8)
+        const circle = new Circle(7.8)
         expect(circle.getArea()).to.equal(191.13449704440302)
         done()
       })
@@ -56,7 +56,7 @@ describe('Circle - Using public properties (file: Circle.js)', () => {
       })
 
       it('{ a = 6, b = 9.7 } should return 60.94689747964198', done => {
-        let circle = new Circle(9.7)
+        const circle = new Circle(9.7)
         expect(circle.getCircumference()).to.equal(60.94689747964198)
         done()
       })
@@ -69,8 +69,8 @@ describe('Circle - Using public properties (file: Circle.js)', () => {
         done()
       })
 
-      it(`{ radius = 13.2 } should return 'radius: 13.2, area: 547.4, circumference: 82.9'`, done => {
-        let circle = new Circle(13.2)
+      it('{ radius = 13.2 } should return \'radius: 13.2, area: 547.4, circumference: 82.9\'', done => {
+        const circle = new Circle(13.2)
         expect(circle.toString()).to.equal('radius: 13.2, area: 547.4, circumference: 82.9')
         done()
       })
