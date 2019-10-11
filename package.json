@@ -1,30 +1,18 @@
 {
-  "name": "exercise-constructive-prototype-of-ellipse",
+  "name": "exercise-new-classic-ellipse",
   "version": "1.1.0",
   "main": "app.js",
   "homepage": "http://coursepress.lnu.se/kurs/grundlaggande-programmering/",
   "contributors": [
-    {
-      "name": "John Häggerud",
-      "email": "john.haggerud@lnu.se"
-    },
-    {
-      "name": "Johan Leitet",
-      "email": "johan.leitet@lnu.se"
-    },
-    {
-      "name": "Jacob Lindehoff",
-      "email": "jacob.lindehoff@lnu.se"
-    },
-    {
-      "name": "Mats Loock",
-      "email": "mats.loock@lnu.se"
-    }
+    "John Häggerud <john.haggerud@lnu.se>",
+    "Johan Leitet <johan.leitet@lnu.se>",
+    "Jacob Lindehoff <jacob.lindehoff@lnu.se>",
+    "Mats Loock <mats.loock@lnu.se>"
   ],
   "license": "CC-BY-4.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/1dv021/exercise-constructive-prototype-of-ellipse.git"
+    "url": "https://github.com/1dv021/exercise-new-classic-ellipse.git"
   },
   "engines": {
     "node": ">=0.12.0"
