@@ -42,9 +42,9 @@ Metoderna nedan ska vara gemensamma för samtliga objekt som instansieras av typ
 
 ### src/Circle.js
 
-Du ska skriva en konstruktorfunktion som skapar ett objekt av typen `Circle` där arean och omkretsen ska kunna beräknas. I samband med att objektet skapas ska det vara möjligt att cirkelns radie, som betecknas `radius`. Se till att återanvända kod i så stor utsträckning som möjligt från typen `Ellipse` genom att använda arv.
+Du ska skriva en konstruktorfunktion som skapar ett objekt av typen `Circle` där arean och omkretsen ska kunna beräknas. I samband med att objektet skapas ska det vara möjligt att ange cirkelns radie, som betecknas `radius`. Se till att återanvända kod i så stor utsträckning som möjligt från typen `Ellipse` genom att använda arv.
 
-En ellips area kan bestämmas med `Math.PI * radius * radius`, och dess omkrets med `2 * Math.PI * radius`. _(Samma formler kan användas som för en ellips area och omkrets, eller?)_
+En cirkels area kan bestämmas med `Math.PI * radius * radius`, och dess omkrets med `2 * Math.PI * radius`. _(Samma formler kan användas som för en ellips area och omkrets, eller?)_
 
 #### Egenskaper
 
